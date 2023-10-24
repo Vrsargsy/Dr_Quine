@@ -33,7 +33,7 @@ $(SULLY): $(SULLY_OBJS)
 	$(CC) $(FLAGS) $(SULLY_OBJS) -o $@
 
 clean:
-	@rm -fv $(COLLEEN_OBJS) $(GRACE_OBJS) Grace_kid.c $(SULLY_OBJS)
+	@rm -fv $(COLLEEN_OBJS) $(GRACE_OBJS) Grace_kid.c $(SULLY_OBJS) Sully_*
 	@rmdir $(OBJS) 2> /dev/null || true
 
 fclean: clean
